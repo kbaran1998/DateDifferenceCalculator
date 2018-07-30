@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24255558-10ce-40ba-ade4-bd79db5d0ebb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit___junit_version_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine___junit_vintage_version_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DateDifferenceCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DateDifferenceCalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datePackage/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datePackage/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +17,23 @@
         <entry key="last-active-plugin-version" value="5.21.1" />
       </map>
     </option>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DateDifferenceCalculator$DateTest.ic" NAME="DateTest Coverage Results" MODIFIED="1532992535387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1232497189">
@@ -47,13 +57,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="703" />
+          <entry key="java" value="909" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="703" />
+          <entry key="JAVA" value="909" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -64,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state relative-caret-position="15">
+              <caret line="19" column="80" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -73,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+            <state relative-caret-position="372">
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1136#1137#0" expanded="true" />
@@ -89,6 +99,8 @@
                 <element signature="e#1759#1760#0" expanded="true" />
                 <element signature="e#1839#1840#0" expanded="true" />
                 <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#2608#2609#0" expanded="true" />
+                <element signature="e#2662#2663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532991044655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532992534037" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jpacman-template" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -274,6 +286,17 @@
       <module name="DateDifferenceCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DateTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest.getDayInMonthLeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DateDifferenceCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTest" />
+      <option name="METHOD_NAME" value="getDayInMonthLeapYearTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,10 +342,12 @@
       <item itemvalue="JUnit.DateTest" />
       <item itemvalue="JUnit.DateTest.isLeapYearTrue" />
       <item itemvalue="JUnit.DateTest.isLeapYearTrue (1)" />
+      <item itemvalue="JUnit.DateTest.getDayInMonthLeapYearTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DateTest" />
+        <item itemvalue="JUnit.DateTest.getDayInMonthLeapYearTest" />
         <item itemvalue="JUnit.DateTest.isLeapYearTrue (1)" />
         <item itemvalue="JUnit.DateTest.isLeapYearTrue" />
       </list>
@@ -347,50 +372,50 @@
       <workItem from="1532807308779" duration="4383000" />
       <workItem from="1532981411828" duration="93000" />
       <workItem from="1532981639761" duration="401000" />
-      <workItem from="1532982242358" duration="8764000" />
+      <workItem from="1532982242358" duration="10207000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTest - 2018.07.30 at 23h 58m 20s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.30 at 23h 58m 31s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.30 at 23h 58m 46s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.31 at 00h 05m 24s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.31 at 00h 05m 49s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.31 at 00h 11m 53s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.31 at 00h 12m 31s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest - 2018.07.31 at 00h 19m 47s.xml">
-      <configuration name="DateTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DateTest - 2018.07.31 at 00h 21m 16s.xml">
       <configuration name="DateTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DateTest - 2018.07.31 at 00h 37m 49s.xml">
       <configuration name="DateTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 00h 50m 47s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 00h 57m 40s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 01h 06m 35s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 01h 09m 19s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_getDayInMonthLeapYearTest - 2018.07.31 at 01h 11m 03s.xml">
+      <configuration name="DateTest.getDayInMonthLeapYearTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_getDayInMonthLeapYearTest - 2018.07.31 at 01h 12m 05s.xml">
+      <configuration name="DateTest.getDayInMonthLeapYearTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 01h 12m 14s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest - 2018.07.31 at 01h 12m 35s.xml">
+      <configuration name="DateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22206000" />
+    <option name="totallyTimeSpent" value="23649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15973154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15973154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,7 +425,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32867134" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2937063" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.2937063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,14 +434,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286517" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.2937063" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3067114" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.15503356" />
     </layout>
@@ -426,6 +452,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/checkstyle.xml">
@@ -438,13 +468,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="244" column="33" selection-start-line="244" selection-start-column="33" selection-end-line="244" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -455,17 +478,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="244" column="33" selection-start-line="244" selection-start-column="33" selection-end-line="244" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        <state relative-caret-position="372">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1136#1137#0" expanded="true" />
@@ -480,6 +510,8 @@
             <element signature="e#1759#1760#0" expanded="true" />
             <element signature="e#1839#1840#0" expanded="true" />
             <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
           </folding>
         </state>
       </provider>

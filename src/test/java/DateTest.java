@@ -80,4 +80,41 @@ public class DateTest {
     void getSecondsTest() {
         assertThat(defaultDate.getSeconds()).isEqualTo(0);
     }
+
+
+    /**
+     * Days in month getter for normal year.
+     */
+    @Test
+    void getDayInMonthNormalTest() {
+        assertThat(defaultDate.getDaysInMonths()).isEqualTo(new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31});
+    }
+
+    /**
+     * Days in month getter for a leap year.
+     */
+    @Test
+    void getDayInMonthLeapYearTest() {
+        Date leap = new Date(1, 1, 2012, 0, 0, 0);
+        assertThat(leap.getDaysInMonths()).isEqualTo(new int[]{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31});
+    }
+
+    /**
+     * Test for leap year checker for true value.
+     */
+    @Test
+    void isLeapTrue() {
+        Date leap = new Date(1, 1, 2012, 0, 0, 0);
+        assertThat(leap.isLeapYear()).isTrue();
+    }
+
+    /**
+     * Test for leap year checker for false value.
+     */
+    @Test
+    void isLeapFalse() {
+        assertThat(defaultDate.isLeapYear()).isFalse();
+    }
+
+
 }
