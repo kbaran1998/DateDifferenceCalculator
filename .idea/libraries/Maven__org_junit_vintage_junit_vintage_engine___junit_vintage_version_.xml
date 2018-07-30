@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.junit.vintage:junit-vintage-engine:${junit.vintage.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/vintage/junit-vintage-engine/${junit.vintage.version}/junit-vintage-engine-${junit.vintage.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/vintage/junit-vintage-engine/${junit.vintage.version}/junit-vintage-engine-${junit.vintage.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/vintage/junit-vintage-engine/${junit.vintage.version}/junit-vintage-engine-${junit.vintage.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

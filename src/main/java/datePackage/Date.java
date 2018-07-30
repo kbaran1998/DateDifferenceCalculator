@@ -10,7 +10,7 @@ public class Date {
     private int [] daysInMonths;
     private boolean leapYear;
 
-    public Date(int day, int month, int year, int hour, int minutes, int seconds){
+    public Date(int day, int month, int year, int hour, int minutes, int seconds) {
         this.day = day;
         this.month = month;
         this.year = year;
@@ -18,7 +18,7 @@ public class Date {
         this.minutes = minutes;
         this.seconds = seconds;
         daysInMonths = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        leapYear = setLeapYear();
+        leapYear = setLeapYear(year);
     }
 
     public int getDay() {
@@ -52,7 +52,7 @@ public class Date {
         return leapYear;
     }
 
-    public boolean setLeapYear() {
+    public boolean setLeapYear(int year) {
         if(year % 4== 0){
             daysInMonths[1] = 29;
             return true;
