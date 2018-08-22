@@ -53,11 +53,21 @@ public class Date {
     }
 
     public boolean setLeapYear(int year) {
-        if(year % 4== 0){
+        if (year % 4 == 0) {
             daysInMonths[1] = 29;
             return true;
         }
         return false;
     }
 
+    public String toSring() {
+        String time = "";
+        if (minutes < 10) {
+            time = hour + " : 0" + minutes;
+        }
+        else {
+            time += hour + " : " + minutes;
+        }
+        return "Date: " + day + "/" + month + "/" + year + "\nTime: " + time;
+    }
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24255558-10ce-40ba-ade4-bd79db5d0ebb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DateCalculationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datePackage/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datePackage/Date.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,92 +41,86 @@
     <session id="-1232497189">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3142" />
+          <entry key="java" value="4970" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3142" />
+          <entry key="JAVA" value="4970" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52737087">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-12">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                  <folding>
-                    <element signature="e#673#674#0" expanded="true" />
-                    <element signature="e#702#703#0" expanded="true" />
-                    <element signature="e#730#731#0" expanded="true" />
-                    <element signature="e#758#759#0" expanded="true" />
-                    <element signature="e#785#786#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/DateCalculationsTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="81" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="81" />
+              <folding>
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,11 +143,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Date.java" />
         <option value="$PROJECT_DIR$/src/main/java/DateCalculations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datePackage/Date.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java" />
         <option value="$PROJECT_DIR$/src/test/java/DateCalculationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datePackage/Date.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Launcher.java" />
       </list>
     </option>
   </component>
@@ -196,9 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,33 +221,20 @@
               <item name="DateDifferenceCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="DateDifferenceCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datePackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DateDifferenceCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DateDifferenceCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DateDifferenceCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DateDifferenceCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533422483745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533424093180" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jpacman-template" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,7 +255,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in DateDifferenceCalculator">
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="DateDifferenceCalculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -311,17 +299,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateCalculationsTest.daysFromJanuaryEndDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DateDifferenceCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateCalculationsTest" />
-      <option name="METHOD_NAME" value="daysFromJanuaryEndDays(int,int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DateCalculationsTest.getCurrentDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DateDifferenceCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -349,18 +326,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DateCalculationsTest" />
-      <item itemvalue="JUnit.DateCalculationsTest.daysFromJanuaryEndDays" />
       <item itemvalue="JUnit.DateCalculationsTest.daysFromDecemberEndDays" />
       <item itemvalue="JUnit.DateCalculationsTest.getCurrentDay" />
       <item itemvalue="JUnit.All in DateDifferenceCalculator" />
+      <item itemvalue="Application.Launcher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="JUnit.All in DateDifferenceCalculator" />
         <item itemvalue="JUnit.DateCalculationsTest" />
         <item itemvalue="JUnit.DateCalculationsTest.getCurrentDay" />
         <item itemvalue="JUnit.DateCalculationsTest.daysFromDecemberEndDays" />
-        <item itemvalue="JUnit.DateCalculationsTest.daysFromJanuaryEndDays" />
       </list>
     </recent_temporary>
   </component>
@@ -385,23 +362,13 @@
       <workItem from="1532981639761" duration="401000" />
       <workItem from="1532982242358" duration="10514000" />
       <workItem from="1533372404712" duration="6227000" />
-      <workItem from="1533413797714" duration="4961000" />
+      <workItem from="1533413797714" duration="7095000" />
+      <workItem from="1534353355667" duration="4820000" />
+      <workItem from="1534961451397" duration="1709000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateCalculationsTest_daysFromDecemberBeginningDays - 2018.08.05 at 00h 03m 27s.xml">
-      <configuration name="DateCalculationsTest.daysFromDecemberBeginningDays" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateCalculationsTest_daysFromDecemberBeginningDays - 2018.08.05 at 00h 05m 47s.xml">
-      <configuration name="DateCalculationsTest.daysFromDecemberBeginningDays" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateCalculationsTest_daysFromJanuaryEndDays - 2018.08.05 at 00h 11m 06s.xml">
-      <configuration name="DateCalculationsTest.daysFromJanuaryEndDays" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateCalculationsTest_daysFromDecemberEndDays - 2018.08.05 at 00h 12m 19s.xml">
-      <configuration name="DateCalculationsTest.daysFromDecemberEndDays" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DateCalculationsTest_daysFromDecemberEndDays - 2018.08.05 at 00h 20m 38s.xml">
       <configuration name="DateCalculationsTest.daysFromDecemberEndDays" configurationId="JUnit" />
     </history-entry>
@@ -420,15 +387,27 @@
     <history-entry file="DateCalculationsTest_getCurrentDay - 2018.08.05 at 00h 39m 26s.xml">
       <configuration name="DateCalculationsTest.getCurrentDay" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_DateDifferenceCalculator - 2018.08.05 at 00h 40m 45s.xml">
+      <configuration name="All in DateDifferenceCalculator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateCalculationsTest - 2018.08.05 at 00h 41m 01s.xml">
+      <configuration name="DateCalculationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateCalculationsTest - 2018.08.05 at 00h 41m 19s.xml">
+      <configuration name="DateCalculationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DateDifferenceCalculator - 2018.08.05 at 00h 41m 25s.xml">
+      <configuration name="All in DateDifferenceCalculator" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35144000" />
+    <option name="totallyTimeSpent" value="43807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1328859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.21258742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.21258742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,20 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -528,20 +493,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateCalculationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state relative-caret-position="-3103">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DateCalculationsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="81" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datePackage/DateCalculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
