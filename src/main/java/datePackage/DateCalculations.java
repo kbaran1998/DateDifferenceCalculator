@@ -87,6 +87,28 @@ public class DateCalculations {
         return year % 4 == 0;
     }
 
+    /**
+     * Check whether this daye is earlier than the other.
+     * @param thisDate this given date
+     * @param otherDate other given date
+     * @return bool to check if this current date is early.
+     */
+    public boolean isEarly(Date thisDate, Date otherDate) {
+        if (thisDate.getYear() == otherDate.getYear()) {
+            int daysForThis = 0;
+            int daysForOther = 0;
+            daysForThis += thisDate.getDay();
+            daysForOther += otherDate.getDay();
+            for (int i = 0; i < thisDate.getMonth() - 1; i++) {
+                daysForThis += thisDate.getDaysInMonths()[i];
+            }
+            for (int i = 0; i < otherDate.getMonth() - 1; i++) {
+                daysForOther += otherDate.getDaysInMonths()[i];
+            }
+            return daysForThis < daysForOther;
+        }
+        return thisDate.getYear() < otherDate.getYear();
+    }
 
     /**
      * Get the current date right now.

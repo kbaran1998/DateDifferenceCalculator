@@ -9,6 +9,10 @@ import java.util.Scanner;
 public class Launcher {
     private static int [] daysInMonths = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
+    /**
+     * Main method.
+     * @param args random
+     */
     public static void main(String[]args) {
         System.out.println("Welcome to Date Calculator!!!");
         Scanner sc = new Scanner(System.in);
@@ -47,14 +51,39 @@ public class Launcher {
                                 System.out.println("Wrong date format!!!");
                             }
                             givenDate = new Date(day, month, year, 0, 0, 0);
+                            Date currentDate = cal.getCurrentDate();
+                            int diffDays = 0;
+                            if (cal.isEarly(currentDate, givenDate)) {
+                                if (currentDate.getYear() == givenDate.getYear()) {
+                                    diffDays += cal.getDaysInBetween(currentDate, givenDate);
+                                }
+                                else {
+                                    diffDays += cal.daysFromDecember(currentDate);
+                                    diffDays += cal.getDaysInBetween(currentDate, givenDate);
+                                    diffDays += cal.daysFromJanuary(givenDate);
+                                }
+                            }
+                            else {
+                                if (currentDate.getYear() == givenDate.getYear()) {
+                                    diffDays += cal.getDaysInBetween(givenDate, currentDate);
+                                }
+                                else {
+                                    diffDays += cal.daysFromDecember(givenDate);
+                                    diffDays += cal.getDaysInBetween(givenDate, currentDate);
+                                    diffDays += cal.daysFromJanuary(currentDate);
+                                }
+
+                            }
+                            System.out.println("Diffrence between " + currentDate.getDay() + "/"
+                                    + currentDate.getMonth() + "/" + currentDate.getYear() + " and "
+                                    + givenDate.getDay() + "/"
+                                    + givenDate.getMonth() + "/" + givenDate.getYear()
+                                    + " is: " + diffDays + ".");
                         }
                         catch (Exception e) {
                             System.out.println("Try again!");
                         }
                     }
-                    Date currentDate = cal.getCurrentDate();
-                    //Make a comparator for dates (I.e. which one is smaller and which is bigger)
-
                     break;
                 case '3':
                     break;
@@ -71,6 +100,13 @@ public class Launcher {
         while (number != '4');
     }
 
+    /**
+     * Method to check if the date uses correct date format.
+     * @param day Day
+     * @param month Month
+     * @param year Year
+     * @return a bool whether given date is in the correct format
+     */
     public static boolean isCorrectFormat(int day, int month, int year) {
         if (year % 4 == 0) {
             daysInMonths[1] = 29;
